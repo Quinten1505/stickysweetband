@@ -82,8 +82,7 @@ body {
 }
 
 .cover{
-    background-color: blue;
-    background-image: url(./images/frontcover.jpg);
+    background-image: url("./images/frontcover.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;

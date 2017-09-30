@@ -2,19 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sticky sweet band</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div class="navbar" id="myTopnav">
-        <a class="navbutton" id="home" href="index.html">HOME</a>
-        <a class="navbutton" id="news" href="#">NEWS</a>
-        <a class="navbutton" id="roster" href="#">THE BAND</a>
-        <a class="navbutton" id="store" href="#">MEDIA</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    <div  class="navbar" id="myTopnav">
+        <ul>
+            <li><a class="navbutton" id="home" href="index.html">HOME</a></li>
+            <li><a class="navbutton" id="news" href="#">NEWS</a></li>
+            <li><a class="navbutton" id="roster" href="#">THE BAND</a></li>
+            <li><a class="navbutton" id="store" href="#">MEDIA</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>
+        </ul>
     </div>
-    <div class="content">
-
+    <div class="cover">
+        <p>logo</p>
+    </div>
+    <div class="news">
+        <div class="content" id="newscontainer">
+            <div class="newsstory" id="left">
+                <h1>News 1</h1>
+            </div>
+            <div class="newsstory" id="middle">
+                <h1>News 2</h1>
+            </div>
+            <div class="newsstory" id="right">
+                <h1>News 3</h1>
+            </div>
+        </div>
+    </div>
+    <div class="theBand">
+        <p>theBand</p>
+    </div>
+    <div class="media">
+        <p>media</p>
     </div>
   </body>
 </html>
